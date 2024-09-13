@@ -1,13 +1,10 @@
-import logo from './logo.svg';
+import Home from './pages/home';
 import './App.css';
-import Saludo from './components/Saludo/Index'
-import Despedida from './components/Despedida/Index'
 
 function App() {
   return (
     <div className="App">
-        <Saludo/>
-        <Despedida/>
+      <Home />
     </div>
   );
 }
