@@ -1,12 +1,11 @@
-import Home from './pages/home';
-import './App.css';
+import "./App.css";
+import Login from "./pages/login/login";
+import Registro from "./pages/registre/registro";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Home />
+      <Registro />
     </div>
   );
 }
-
-export default App;
