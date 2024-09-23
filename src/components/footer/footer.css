@@ -1,0 +1,93 @@
+.footer {
+  background-color: #113849;
+  padding: 10px 0;
+}
+
+.content h2 {
+  text-align: left;
+  margin: 5%;
+  height: auto;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.content p {
+  text-align: left;
+  margin: 0% 5%;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+}
+
+.enlaces {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.enlaces li {
+  margin: 0;
+}
+
+.enlaces a {
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 5%;
+  color: rgb(255, 255, 255);
+}
+
+.info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.info li {
+  margin: 0;
+}
+
+.info a {
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 5%;
+  color: rgb(255, 255, 255);
+}
+
+.ubic img {
+  width: 40px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ubic a {
+  width: 60px;
+  height: 60px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.ubic a:hover {
+  transform: scale(1.2);
+  background: #113849;
+}
+
+.ubic li {
+  float: left;
+}
+
+.text-decoration {
+  text-decoration: underline;
+}
+
+.hr-style {
+  border: solid 2px white;
+}

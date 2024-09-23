@@ -1,0 +1,63 @@
+.menu {
+  color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.site-title {
+  align-content: center;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.my-span {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  align-content: center;
+  margin: 0;
+  font-size: 1.7em;
+}
+
+.toggle {
+  border: none;
+  color: #000000;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item li {
+  margin: 0;
+  align-content: center;
+}
+
+.item a {
+  color: #000000;
+  text-decoration: none;
+
+  align-content: center;
+  margin: 0;
+}
+
+.item a:hover {
+  background-color: #999999e3;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+}
